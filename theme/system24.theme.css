@@ -57,8 +57,8 @@
 
 	/* status dot colors */
 	--online-dot: var(--green); /* color of online dot. */
-	--dnd-dot: var(--pink); /* color of do not disturb dot. */
-	--idle-dot: var(--yellow); /* color of idle dot. */
+	--dnd-dot: oklch(73% 0.12 30); /* color of do not disturb dot. */
+	--idle-dot: oklch(80% 0.12 100); /* color of idle dot. */
 	--streaming-dot: var(--purple); /* color of streaming dot. */
 
 	/* mention/ping and message colors */
@@ -78,7 +78,7 @@
 	--purple-2: oklch(53% 0.12 300);
 	--cyan: oklch(73% 0.12 200);
 	--yellow: oklch(78% 0.12 80);
-	--green: oklch(73% 0.12 160);
+	--green: oklch(78% 0.16 160);
 	--green-1: oklch(63% 0.12 160);
 	--green-2: oklch(53% 0.12 160);
 }
