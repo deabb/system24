@@ -56,10 +56,10 @@
 	--border-transition: 0.2s ease; /* panel border transition. */
 
 	/* status dot colors */
-	--online-dot: var(--green); /* color of online dot. */
+	--online-dot: oklch(78% 0.16 160); /* color of online dot. */
 	--dnd-dot: oklch(73% 0.12 30); /* color of do not disturb dot. */
 	--idle-dot: oklch(80% 0.12 100); /* color of idle dot. */
-	--streaming-dot: var(--purple); /* color of streaming dot. */
+	--streaming-dot: oklch(73% 0.12 300); /* color of streaming dot. */
 
 	/* mention/ping and message colors */
 	--mention-txt: var(--acc-0); /* color of mention text. */
